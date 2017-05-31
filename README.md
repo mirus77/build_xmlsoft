@@ -16,6 +16,8 @@ Usage
 
 Clone into build directory (example C:\build)
 Unpack zip files from src directory inside.
+Install Perl (ActiveState) for build OpenSSL
+Install NASM for build OpenSSL 1.0.x
 
 Can be used original tars archive from orig websites, then adapt path to source in build scripts.
 

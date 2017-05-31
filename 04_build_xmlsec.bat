@@ -11,7 +11,7 @@ SET PREFIX=%~dp0\build64
 
 :doit
 
-cd src\xmlsec1-1.2.24\Win32
+cd src\xmlsec1-1.2.22\Win32
 nmake clean
 
 SET XMLSEC_INCLUDE=%PREFIX%\include;%PREFIX%\include\libxml2;%PREFIX%\include\libiconv;%PREFIX%\include\mozilla;%PREFIX%\include\mozilla\nspr;%PREFIX%\include\mozilla\nss;%MSSDK_INCLUDE%
