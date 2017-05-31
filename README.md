@@ -23,11 +23,11 @@ Run _buildtools.bat or _buildtoolsx64.bat (calling Visual Studio 2017 rsvars.cmd
 
 comands inside buildtools prompt:
 
-00_build_openssl.bat
-01_build_libiconv.bat
-02_build_libxml.bat
-03_build_libxslt.bat
-04_build_xmlsec.bat
+	00_build_openssl.bat
+	01_build_libiconv.bat
+	02_build_libxml.bat
+	03_build_libxslt.bat
+	04_build_xmlsec.bat
 
 Troubleshooting
 ---
