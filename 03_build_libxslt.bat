@@ -15,7 +15,7 @@ nmake clean
 
 SET LIBXML_INCLUDE=%PREFIX%\include;%PREFIX%\include\libiconv;%PREFIX%\include\libxml2;%MSSDK_INCLUDE%
 SET LIBXML_LIB=%PREFIX%\lib;%MSSDK_LIB%
-SET LIBXML_OPTIONS=iconv=yes compiler=msvc cruntime=/MD debug=no static=yes
+SET LIBXML_OPTIONS=iconv=yes compiler=msvc cruntime=/MT debug=no static=yes
 
 del /F Makefile configure.txt
 cscript configure.js prefix=%PREFIX% %LIBXML_OPTIONS% include=%LIBXML_INCLUDE% lib=%LIBXML_LIB% sodir=%PREFIX%\bin
