@@ -13,7 +13,7 @@ nmake clean
 
 SET LIBICONV_INCLUDE=%PREFIX%\include;%MSSDK_INCLUDE%
 SET LIBICONV_LIB=%PREFIX%\lib;%MSSDK_LIB%
-SET LIBICONV_OPTIONS=static=yes debug=no unicode=yes
+SET LIBICONV_OPTIONS=static=yes cruntime=/MT debug=no unicode=yes
 
 del /F Makefile configure.txt
 cscript configure.js prefix="%PREFIX%" %LIBICONV_OPTIONS% include="%LIBICONV_INCLUDE%" lib="%LIBICONV_LIB%" sodir="%PREFIX%\bin"

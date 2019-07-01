@@ -321,9 +321,9 @@ CFLAGS 			= $(CFLAGS) /D "UNICODE" /D "_UNICODE"
 
 # Optimisation and debug symbols.
 !if "$(DEBUG)" == "1"
-CFLAGS 			= $(CFLAGS) /D "_DEBUG" /Od /Z7 /MDd
+CFLAGS 			= $(CFLAGS) /D "_DEBUG" /Od /Z7 /MTd
 !else
-CFLAGS 			= $(CFLAGS) /D "NDEBUG" /O2 /MD
+CFLAGS 			= $(CFLAGS) /D "NDEBUG" /O2 /MT
 !endif
 
 # configurable options

@@ -23,7 +23,7 @@ nmake clean
 
 SET LIBEET_INCLUDE=%PREFIX%\include;%PREFIX%\include\libiconv;%PREFIX%\include\libxml2;%MSSDK_INCLUDE%
 SET LIBEET_LIB=%PREFIX%\lib;%MSSDK_LIB%
-SET LIBEET_OPTIONS=static=yes debug=no unicode=yes
+SET LIBEET_OPTIONS=static=yes cruntime=/MT debug=no unicode=yes
 
 del /F Makefile configure.txt version32.rc
 cscript configure.js prefix="%PREFIX%" %LIBEET_OPTIONS% include="%LIBEET_INCLUDE%" lib="%LIBEET_LIB%" sodir="%PREFIX%\bin"
