@@ -8,7 +8,7 @@ goto doit
 SET PREFIX=%~dp0\build64
 :doit
 
-cd src\libiconv-1.14_VC\Win32
+cd src\libiconv-1.16_VC\Win32
 nmake clean
 
 SET LIBICONV_INCLUDE=%PREFIX%\include;%MSSDK_INCLUDE%

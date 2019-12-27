@@ -9,7 +9,7 @@ goto doit
 SET PREFIX=%~dp0\build64
 :doit
 
-cd src\libxml2-2.9.4\Win32
+cd src\libxml2-2.9.9\Win32
 nmake clean
 
 SET LIBXML_INCLUDE=%PREFIX%\include;%PREFIX%\include\libiconv;%MSSDK_INCLUDE%

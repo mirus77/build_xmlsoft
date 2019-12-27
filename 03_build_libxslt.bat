@@ -10,7 +10,7 @@ SET PREFIX=%~dp0\build64
 
 :doit
 
-cd src\libxslt-1.1.29\Win32
+cd src\libxslt-1.1.34\Win32
 nmake clean
 
 SET LIBXML_INCLUDE=%PREFIX%\include;%PREFIX%\include\libiconv;%PREFIX%\include\libxml2;%MSSDK_INCLUDE%
