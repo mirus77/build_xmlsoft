@@ -1,11 +1,11 @@
 # Build xmlsoft libs
 ---
-Scripts for building binary windows DLLs of:
+Scripts for building binary windows DLLs and static of:
 
-* OpenSSL 1.1.1d (http://www.openssl.org)
-* LibXML 2.9.9 (http://xmlsoft.org)
-* LibXSLT 1.1.34 (http://xmlsoft.org/XSLT
-* XMLSec 1.2.29(http://http://www.aleksey.com/xmlsec/)
+* OpenSSL 3.2.0 (http://www.openssl.org)
+* LibXML 2.11.5 (http://xmlsoft.org)
+* LibXSLT 1.1.39 (http://xmlsoft.org/XSLT
+* XMLSec 1.3.2(http://http://www.aleksey.com/xmlsec/)
 
 This scripts is published under the MIT Licence see the LICENCE file.
 
@@ -20,9 +20,9 @@ Clone into build directory (example C:\build)
 
 Unpack zip files from src directory inside. Skip existings files in source folder.
 
-Install Perl (ActiveState) for build OpenSSL
+Install Perl (strawberry-perl) for build OpenSSL
 
-Install NASM for build OpenSSL 1.1.x
+Install NASM for build OpenSSL 3.2.x Win32
 
 Can be used original tars archive from orig websites, then adapt path to source in build scripts.
 

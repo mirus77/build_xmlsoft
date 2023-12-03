@@ -5,4 +5,3 @@ build64
 src/*
 
 !src/*.zip
-!src/xmlsec1-1.2.29/win32/Makefile.msvc
